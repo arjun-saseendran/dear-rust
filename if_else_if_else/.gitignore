@@ -1,0 +1,14 @@
+# 1. Rust Build Artifacts (This fixes your current issue)
+/target/
+**/*.rs.bk
+
+# 2. macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 3. Environment Variables & Secrets
+.env
+.env.*
+*.pem
+*.key
